@@ -16,6 +16,19 @@ public class EnemyPatrol : MonoBehaviour
     //Update is called once per frame
     void Update()
     {
+        if (transform.position == patrolPoints[targetPoint].position)
+        {
+            increaseTargetInt();
+        }
         transform.position = Vector3.MoveTowards(transform.position, patrolPoints[0].position, speed * Time.deltaTime);
+    }
+
+    void increaseTargetInt()
+    {
+        targetPoint++;
+        if (targetPoint >= patrolPoints.Length)
+        {
+            targetPoint = 0;
+        }
     }
 }
