@@ -1,8 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController1: MonoBehaviour
 {
     public float jumpForce = 300.0f;
     public float speed = 10.0f;
