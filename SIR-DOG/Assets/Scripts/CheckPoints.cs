@@ -8,7 +8,12 @@ public class CheckPoints : MonoBehaviour
     [SerializeField] List<GameObject> checkPoints;
     [SerializeField] Vector3 vectorPoint;
     [SerializeField] float dead;
-    
+
+    private void Start()
+    {
+        player = GameObject.FindWithTag("Player");
+    }
+
     void Update()
     {
         if (player.transform.position.y < -dead)
@@ -21,5 +26,10 @@ public class CheckPoints : MonoBehaviour
     {
         vectorPoint = player.transform.position;
         Destroy(other.gameObject);
+
+        if (other.gameObject.CompareTag("Player"))
+        {
+            player.GetComponent<PlayerController1>().lastCP = this;
+        }
     }
 }

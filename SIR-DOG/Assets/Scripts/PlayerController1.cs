@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController1: MonoBehaviour
+public class PlayerController1 : MonoBehaviour
 {
     public float jumpForce = 300.0f;
     public float speed = 10.0f;
@@ -12,11 +12,16 @@ public class PlayerController1: MonoBehaviour
     private int amountOfJumps = 0;
     private float Zmovement = 0f;
     private float Xmovement = 0f;
+    public CheckPoints lastCP;
 
     // Start is called before the first frame update
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        if (lastCP = null)
+        {
+            lastCP = GameObject.Find("Checkpoint0").GetComponent<CheckPoints>();
+        }
     }
 
     void LateUpdate()
