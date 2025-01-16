@@ -25,10 +25,11 @@ public class CheckPoints : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         vectorPoint = player.transform.position;
-        Destroy(other.gameObject);
+        //Destroy(other.gameObject);
 
         if (other.gameObject.CompareTag("Player"))
         {
+            Debug.Log("CP hit");
             player.GetComponent<PlayerController1>().lastCP = this;
         }
     }

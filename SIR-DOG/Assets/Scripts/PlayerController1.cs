@@ -90,4 +90,10 @@ public class PlayerController1 : MonoBehaviour
 
         }
     }
+
+    public void RespawnPlayer()
+    {
+        Debug.Log("Respawn called");
+        this.gameObject.transform.position = lastCP.transform.position;
+    }
 }
