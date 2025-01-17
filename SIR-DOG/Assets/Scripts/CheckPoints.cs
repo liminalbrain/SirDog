@@ -31,6 +31,7 @@ public class CheckPoints : MonoBehaviour
         {
             Debug.Log("CP hit");
             player.GetComponent<PlayerController1>().lastCP = this;
+            ScoreManager1.scoreCount = 0; 
         }
     }
 }
