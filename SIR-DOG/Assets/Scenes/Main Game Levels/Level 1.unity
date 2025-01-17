@@ -5724,10 +5724,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.44993818
+  m_Radius: 0.42570603
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: -0.050061822}
+  m_Center: {x: 0, y: 0, z: -0.025829673}
 --- !u!114 &137045976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10160,9 +10160,9 @@ GameObject:
   - component: {fileID: 223919212}
   - component: {fileID: 223919211}
   - component: {fileID: 223919210}
-  - component: {fileID: 223919209}
   - component: {fileID: 223919213}
   - component: {fileID: 223919214}
+  - component: {fileID: 223919215}
   m_Layer: 0
   m_Name: Enemy placeholder (5)
   m_TagString: Untagged
@@ -10185,19 +10185,6 @@ Transform:
   m_Father: {fileID: 677241352}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &223919209
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223919207}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 2, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &223919210
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10295,6 +10282,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pHealth: {fileID: 2086182514}
   damage: 25
+--- !u!136 &223919215
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223919207}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.39770317
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.0068302155, y: 0, z: 0.008067846}
 --- !u!43 &224282269
 Mesh:
   m_ObjectHideFlags: 0
@@ -19582,9 +19583,9 @@ GameObject:
   - component: {fileID: 428369432}
   - component: {fileID: 428369431}
   - component: {fileID: 428369430}
-  - component: {fileID: 428369429}
   - component: {fileID: 428369433}
   - component: {fileID: 428369434}
+  - component: {fileID: 428369435}
   m_Layer: 0
   m_Name: Enemy placeholder (2)
   m_TagString: Untagged
@@ -19607,19 +19608,6 @@ Transform:
   m_Father: {fileID: 677241352}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &428369429
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 428369427}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 2, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &428369430
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19717,6 +19705,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pHealth: {fileID: 2086182514}
   damage: 25
+--- !u!136 &428369435
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428369427}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.4171219
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.013664246, y: 0, z: 0}
 --- !u!4 &433545768 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6007310868143101638, guid: b2307f5bc10cfaf468ba5b377db6dcdf, type: 3}
@@ -39365,9 +39367,9 @@ GameObject:
   - component: {fileID: 897193336}
   - component: {fileID: 897193335}
   - component: {fileID: 897193334}
-  - component: {fileID: 897193333}
   - component: {fileID: 897193337}
   - component: {fileID: 897193338}
+  - component: {fileID: 897193339}
   m_Layer: 0
   m_Name: Enemy placeholder (3)
   m_TagString: Untagged
@@ -39390,19 +39392,6 @@ Transform:
   m_Father: {fileID: 677241352}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &897193333
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 897193331}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 2, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &897193334
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -39500,6 +39489,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pHealth: {fileID: 2086182514}
   damage: 25
+--- !u!136 &897193339
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897193331}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.41137695
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: -0.012054443, y: 0, z: 0}
 --- !u!43 &900835997
 Mesh:
   m_ObjectHideFlags: 0
@@ -79510,9 +79513,9 @@ GameObject:
   - component: {fileID: 1899609750}
   - component: {fileID: 1899609749}
   - component: {fileID: 1899609748}
-  - component: {fileID: 1899609747}
   - component: {fileID: 1899609751}
   - component: {fileID: 1899609752}
+  - component: {fileID: 1899609753}
   m_Layer: 0
   m_Name: Enemy placeholder (4)
   m_TagString: Untagged
@@ -79535,19 +79538,6 @@ Transform:
   m_Father: {fileID: 677241352}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1899609747
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1899609745}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 2, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1899609748
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -79645,6 +79635,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pHealth: {fileID: 2086182514}
   damage: 25
+--- !u!136 &1899609753
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899609745}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.41614532
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.0059127808, y: 0, z: 0}
 --- !u!43 &1904525027
 Mesh:
   m_ObjectHideFlags: 0
