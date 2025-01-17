@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,7 +11,8 @@ public class ScoreManager1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scoreCount = 0; 
+        scoreCount = 0;
+       
     }
 
     // Update is called once per frame
@@ -23,5 +25,7 @@ public class ScoreManager1 : MonoBehaviour
     {
         scoreCount += points;
     }
+    
+
 }
 
